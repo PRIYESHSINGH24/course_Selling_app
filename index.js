@@ -3,6 +3,7 @@ const { CreateUserRoute } = require("./user")
 const { CreatecourserRoutes } = require("./user")
 const app = express();
 
+
 CreateUserRoute(app);
 CreatecourserRoutes(app);
 
